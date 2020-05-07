@@ -57,7 +57,8 @@ function setupsquares(){
 
 
 function reset(){
-		colors=generateRandomColors(numSquares);
+	colors=generateRandomColors(numSquares);
+	h1.style.backgroundColor="#steelblue";
 	//pick a new random color from array
 	pickedColor=pickColor();
 	//change colorDisplay to match picked color
@@ -74,7 +75,6 @@ function reset(){
 			square[i].style.display="none";
 		}
 	}
-	h1.style.backgroundColor="#steelblue";
 }
 
 
